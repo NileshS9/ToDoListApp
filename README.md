@@ -22,15 +22,4 @@ A simple and powerful To-Do List application that allows users to manage their t
  7.Spring web (To create REST APIs )
  8.Lombok (To reduce Biolerplate code)
 
-## Project Structure
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── com.example.todo
-│   │   │   │   ├── controller
-│   │   │   │   ├── model
-│   │   │   │   ├── repository
-│   │   │   │   └── service
-│   │   └── resources
-│   │       └── application.properties
-└── README.md
+
