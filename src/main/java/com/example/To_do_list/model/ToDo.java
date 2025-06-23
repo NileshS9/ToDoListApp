@@ -1,9 +1,6 @@
 package com.example.To_do_list.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.Data;
+import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -11,10 +8,11 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name ="todos")
-public class toDo{
+public class ToDo{
 
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String title;
