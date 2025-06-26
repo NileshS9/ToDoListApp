@@ -5,10 +5,13 @@ import com.example.To_do_list.repository.ToDoRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 
 @Getter
 @Setter
+@Service
 public class ToDoServiceImpl  implements ToDoService{
 
     @Autowired
